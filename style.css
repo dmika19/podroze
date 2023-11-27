@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+*{ /* *oznacza dla kazdego elementu */
+    box-sizing: border-box;
+    margin:0%;
+} 
+
+/* własciwosc przydzielanie obszaru elementom wielkosc obiektu wliczana obramowka */
+body {
+    background-color: #FFEDDB;
+    margin: 0%;
+}
+.root {
+
+    width:100%;
+    min-height: 100vh; 
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.root > .content {
+    width: 100%;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.root > .content > .navigation {
+    width: 20%;
+    
+    background-color: #FFEDDB;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+}
+.root > .content > .navigation > div {
+    width: 100%;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 100px;
+    background-color:#BF9270 ;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+    display: block;
+    
+}
+.root > .content > .navigation > .link {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #E3B7A0;
+    margin-bottom: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    line-height: 48px;
+    transition: 0.3s;
+    color: white;
+    text-decoration: none;
+}
+.root > .content > .navigation > .link:hover{
+    transition: 0.3s;
+    background-color:#e7a683;
+    color: white;
+}
+.root > .content > .main {
+    width: 80%;
+    height: 150%;
+
+    
+    
+}
+.root > .content > .main > .header {
+    width: 100%;
+    height: 100px;
+    background-color: #BF9270;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 96px;
+    color: white;
+    margin-bottom: 24px;
+}
+.header > a {
+    text-decoration: none;
+    color: inherit;
+}
+.root > .content > .main > .news {
+    width: 100%;
+    
+    background-color: #FFEDDB;
+    padding: 10px;
+}/* taki łancuch jest precyzyjny,
+ selektor sie nazywa,
+ jakbysmy daly .newsElement bez reszty to tez bedzie dzialac */
+.root > .content > .main > .news > a > .newsElement { 
+    width: 100%;
+    height: 200px;
+    background-color: #BF9270;
+    display: flex;
+    flex-direction:row ;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    border: 2px solid #af8686;
+}
+.newsElement > img {
+    width:20%;
+    object-fit: cover;
+}
+.newsElement > p {
+    width: 80%;
+    padding: 16px;
+    margin-left: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    color: white;
+    overflow: auto;
+    
+    
+    
+}
+
+.root > .content > .sidebar {
+    width: 20%;
+   
+    background-color: cadetblue;
+    padding: 10px;
+}
+.footer {
+    background-color: #BF9270;
+    height: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: white;
+    
+
+}

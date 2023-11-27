@@ -1,0 +1,63 @@
+.adoption_information > h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    line-height: 32px;
+}
+
+
+.form > h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+      
+}
+
+#imie{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+ }
+  
+#nazwisko{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+ }
+
+#telefon{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+ }
+
+#przycisk{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+    padding: 8px 16px;
+    
+
+}
+#przycisk2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+    padding: 8px 16px;
+
+}
+.adoption_information > h3.mb {
+    margin-bottom: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    text-shadow: none;
+}
+.form > p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}

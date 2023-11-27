@@ -1,0 +1,6 @@
+.adoption_information > h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    line-height: 32px;
+}
